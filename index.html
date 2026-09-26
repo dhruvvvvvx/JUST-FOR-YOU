@@ -96,6 +96,7 @@
             justify-content: center;
             pointer-events: none;
             overflow-y: auto;
+            padding-bottom: 5rem;
         }
 
         .slide.active {
@@ -215,11 +216,11 @@
         </div>
     </header>
 
-    <main id="slideDeck" class="relative z-10 w-full h-screen pt-16 pb-20 flex items-center justify-center px-4 md:px-8">
+    <main id="slideDeck" class="relative z-10 w-full h-screen pt-20 pb-28 flex items-center justify-center px-4 md:px-8">
 
         <!-- ==================== SLIDE 1: Grand Welcome & Birthday Prelude ==================== -->
         <section class="slide active" data-slide="1">
-            <div class="max-w-3xl w-full text-center space-y-6 glass-card-dark p-6 md:p-10 rounded-3xl relative overflow-hidden">
+            <div class="max-w-3xl w-full text-center space-y-6 glass-card-dark p-6 md:p-10 rounded-3xl relative overflow-hidden my-auto">
                 <div class="inline-block p-3 rounded-full bg-crimson-600/20 border border-blush-400/40 text-blush-200 mb-1">
                     <i class="fas fa-crown text-3xl animate-heart"></i>
                 </div>
@@ -264,7 +265,7 @@
 
         <!-- ==================== SLIDE 2: The Unplanned Beginning ==================== -->
         <section class="slide" data-slide="2">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-auto">
                 <div class="space-y-4">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-crimson-600/30 text-blush-200 text-xs font-semibold border border-blush-400/30">
                         <i class="far font-bold fa-calendar-alt"></i> September 2025
@@ -295,7 +296,7 @@
 
         <!-- ==================== SLIDE 3: The Chocolate Promise (Image 1) ==================== -->
         <section class="slide" data-slide="3">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-auto">
                 <div class="flex justify-center">
                     <div class="relative photo-frame rounded-2xl overflow-hidden border-4 border-blush-400/40 max-w-xs cursor-pointer" onclick="openModal('1.jpg', '17th October 2025 - Cadbury Chocolate Before Diwali Break')">
                         <img src="1.jpg" alt="Chocolate before Diwali" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-500">
@@ -324,7 +325,7 @@
 
         <!-- ==================== SLIDE 4: A Handmade Rose & Best Friends (Image 2) ==================== -->
         <section class="slide" data-slide="4">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-auto">
                 <div class="space-y-4 order-2 md:order-1">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-crimson-600/30 text-blush-200 text-xs font-semibold border border-blush-400/30">
                         <i class="fas fa-seedling"></i> Late 2025
@@ -354,7 +355,7 @@
 
         <!-- ==================== SLIDE 5: The Secret Diary & Growing Feelings ==================== -->
         <section class="slide" data-slide="5">
-            <div class="max-w-3xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 text-center">
+            <div class="max-w-3xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 text-center my-auto">
                 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-crimson-600/30 text-blush-200 text-xs font-semibold border border-blush-400/30">
                     <i class="fas fa-book-heart"></i> Unexpected Storms & Hidden Feelings
                 </div>
@@ -390,7 +391,7 @@
 
         <!-- ==================== SLIDE 6: The Magic College Night & PPT Surprise ==================== -->
         <section class="slide" data-slide="6">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 my-auto">
                 <div class="flex flex-col md:flex-row md:items-center justify-between border-b border-blush-400/20 pb-4">
                     <div>
                         <span class="text-xs text-blush-300 font-semibold uppercase tracking-wider">The Turning Point</span>
@@ -418,7 +419,7 @@
 
         <!-- ==================== SLIDE 7: Our Second Day of Magic (Images 6 & 7) ==================== -->
         <section class="slide" data-slide="7">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 my-auto">
                 <div class="text-center space-y-2">
                     <span class="text-xs text-blush-300 font-semibold uppercase tracking-wider">The Morning After</span>
                     <h2 class="text-3xl font-serif text-blush-200">Our Second Day of Magic</h2>
@@ -451,7 +452,7 @@
 
         <!-- ==================== SLIDE 8: Growing Closer Every Second (Images 3 & 4) ==================== -->
         <section class="slide" data-slide="8">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 my-auto">
                 <div class="text-center space-y-2">
                     <span class="text-xs text-blush-300 font-semibold uppercase tracking-wider">Unforgettable College Moments</span>
                     <h2 class="text-3xl font-serif text-blush-200">Growing Closer Every Second</h2>
@@ -480,7 +481,7 @@
 
         <!-- ==================== SLIDE 9: Looking Into Your Soul (Images 8 & 9) ==================== -->
         <section class="slide" data-slide="9">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 text-center">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 text-center my-auto">
                 <div class="space-y-2">
                     <span class="text-xs text-blush-300 font-semibold uppercase tracking-wider">The Window to Your Heart</span>
                     <h2 class="text-3xl font-serif text-blush-200">Looking Into Your Soul</h2>
@@ -507,7 +508,7 @@
 
         <!-- ==================== SLIDE 10: Summer Movie & Confessions (June 25) ==================== -->
         <section class="slide" data-slide="10">
-            <div class="max-w-3xl w-full glass-card-dark p-6 md:p-10 rounded-3xl space-y-6">
+            <div class="max-w-3xl w-full glass-card-dark p-6 md:p-10 rounded-3xl space-y-6 my-auto">
                 <div class="text-center space-y-2">
                     <span class="text-xs text-blush-300 font-semibold uppercase tracking-wider">25th June 2026</span>
                     <h2 class="text-3xl md:text-4xl font-serif text-blush-200">First Movie & "I Like You"</h2>
@@ -535,7 +536,7 @@
 
         <!-- ==================== SLIDE 11: The Sacred Inscription on My Palm (Image 10) ==================== -->
         <section class="slide" data-slide="11">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 my-auto">
                 <div class="text-center space-y-2">
                     <span class="text-xs text-blush-300 font-semibold uppercase tracking-wider">Marks of Love & Sacred Confession</span>
                     <h2 class="text-3xl font-serif text-blush-200">Written on My Palm & Heart</h2>
@@ -566,7 +567,7 @@
 
         <!-- ==================== SLIDE 12: Breathtaking Prettiness (Image 12) ==================== -->
         <section class="slide" data-slide="12">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-auto">
                 <div class="flex justify-center">
                     <div class="relative photo-frame rounded-2xl overflow-hidden border-4 border-blush-400/50 max-w-xs cursor-pointer" onclick="openModal('12.jpg', 'Her breathtaking mirror selfie!')">
                         <img src="12.jpg" alt="Prettiest Devu Mirror Selfie" class="w-full h-80 object-cover">
@@ -601,7 +602,7 @@
 
         <!-- ==================== SLIDE 13: Pure Passion & Soulmates Unbound (Images 11 & 13) ==================== -->
         <section class="slide" data-slide="13">
-            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6">
+            <div class="max-w-4xl w-full glass-card-dark p-6 md:p-8 rounded-3xl space-y-6 my-auto">
                 <div class="text-center space-y-2">
                     <span class="text-xs text-blush-300 font-semibold uppercase tracking-wider">Unforgettable Passion & Gestures</span>
                     <h2 class="text-3xl font-serif text-blush-200">Intimate Kisses & Birthday Sweetness</h2>
@@ -624,7 +625,7 @@
                             On <span class="text-blush-300 font-semibold">24th August</span>, we shared our very first lip kiss—a gentle, trembling moment where our souls merged. And on <span class="text-blush-300 font-semibold">24th September</span>, on our private cinema date, we held each other tightly, sharing passionate, deep kisses in the dim light.
                         </p>
                         <p class="text-xs md:text-sm text-blush-200/90 leading-relaxed">
-                            THANK YOU!! for handing me this Cadbury chocolate for your birthday—a gesture as sweet as your soul. Holding you, kissing your soft cheeks, and walking beside you through every boundary is the greatest privilege of my life.
+                            And today, you handed me this Cadbury chocolate for your birthday—a gesture as sweet as your soul. Holding you, kissing your soft cheeks, and walking beside you through every boundary is the greatest privilege of my life.
                         </p>
                     </div>
                 </div>
